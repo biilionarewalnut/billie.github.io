@@ -1,0 +1,63 @@
+.hidden{
+    display: none;
+}
+body{
+    
+    font-family: "Courgette";
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+
+}
+
+button{
+    background-color: #ffffff00;
+    border: #ffffff00;
+}
+h2{
+    color: white;
+}
+.overlay-box {
+    position: relative;
+    width: 85vw; /* 원하시는 크기로 조절해주세요 */
+    height: 85vh; /* 원하시는 크기로 조절해주세요 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* 가로 중앙 정렬을 위해 추가 */
+    background-color: rgba(0, 0, 0, 0.337); /* 이미지 파일 경로를 지정해주세요 */
+    background-size: cover; /* 이미지를 화면에 맞게 조절 */
+    background-position: center; /* 이미지를 가운데 정렬 */
+    border-radius: 10px;
+}
+#clock{
+    font-family: "Electrolize";
+    font-size: 12vh; 
+    
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+}
+
+#greeting{
+    position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#login_form{
+    position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
